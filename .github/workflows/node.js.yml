@@ -25,6 +25,7 @@ jobs:
           path: public/
 
   test:
+    needs: build
     runs-on: ubuntu-latest
     
     strategy:
